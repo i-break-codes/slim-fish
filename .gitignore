@@ -1,0 +1,9 @@
+# Annoying
+.DS_Store
+
+# Modules
+/node_modules
+
+# Files
+app/assets/**/*.css
+app/assets/**/*.js
