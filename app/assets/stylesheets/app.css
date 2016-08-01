@@ -1,0 +1,284 @@
+/**
+ * Helpers
+ */
+/**  
+ * Import all variables
+ */
+/**
+ * Use to define config variables
+ */
+/**
+ * Use to define color variables
+ */
+/**
+ * Font Families
+ */
+/**
+ * Font Size
+ */
+/**
+ * Line Height
+ */
+/**
+ * Font weight
+ */
+/**
+ * Use to define background-image & background-size variables
+ */
+/**
+ * Root
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/**
+ * Use to define rules for base elements i.e body, h1-h6 and so on....
+ */
+::-moz-selection {
+  background-color: rgba(0, 0, 0, 0.2); }
+::selection {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+body {
+  background-color: #3367d6; }
+
+h1, h3 {
+  padding-bottom: 10px; }
+
+p {
+  margin-top: 10px; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dashed #ffffff; }
+
+hr {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); }
+  .logo h1 {
+    padding-bottom: 0; }
+  .logo img {
+    max-width: 60px;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    margin-right: 2px; }
+  .logo span {
+    font-size: 10px;
+    display: block;
+    position: relative;
+    top: -23px;
+    text-align: right; }
+
+code {
+  display: block;
+  margin-top: 10px; }
+  code pre {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 15px 10px; }
+
+.wrapper {
+  max-width: 700px;
+  margin: auto;
+  text-align: center; }
+
+/**
+ * Use to define base grid
+ */
+.box {
+  margin: 40px;
+  padding: 10px 0; }
+
+/**
+ * Use to define font-size, font-weight and line-height for base elements i.e body, h1-h6 and so on
+ */
+body {
+  font-family: "Open Sans", "Arial";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff; }
+
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: inherit; }
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: inherit; }
+
+h4 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: inherit; }
+
+/**
+ * Components
+ */
+/**
+ * Use to define button styles
+ */
+/**
+ * Use to define list styles
+ */
+/**
+ * Use to define input styles
+ */
+/**
+ * Use to define table styles
+ */
+/**
+ * Modules
+ */
+/**
+ * Header styles goes here
+ */
+/**
+ * Navigation styles goes here
+ */
+/**
+ * Footer styles goes here
+ */
+/**
+ * Sidebar styles goes here
+ */
+.intro {
+  margin-top: 200px; }
+
+.dir-structure h3 {
+  margin-bottom: 30px; }
+
+.dir-structure span {
+  font-weight: 400;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5); }
+
+.dir-structure ul {
+  text-align: left;
+  width: 200px;
+  margin: auto; }
+  .dir-structure ul ul {
+    margin-left: 5px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 10px; }
+    .dir-structure ul ul > li {
+      position: relative;
+      padding-left: 10px; }
+      .dir-structure ul ul > li:before {
+        content: "";
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        width: 12px;
+        position: absolute;
+        left: -10px;
+        top: 12px; }
+
+.ico, .folder-ico, .js-file-ico, .css-file-ico, .html-file-ico, .file-ico {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  vertical-align: middle; }
+
+.folder-ico {
+  background-image: url("../images/folder.svg"); }
+
+.js-file-ico {
+  background-image: url("../images/javascript.svg"); }
+
+.css-file-ico {
+  background-image: url("../images/css.svg"); }
+
+.html-file-ico {
+  background-image: url("../images/html.svg"); }
+
+.file-ico {
+  background-image: url("../images/file.svg"); }
+
+.setup h4 {
+  margin-top: 40px; }
+
+.github-btns {
+  padding-top: 40px; }
+  .github-btns iframe {
+    float: right; }
+  .github-btns li {
+    float: right;
+    padding: 0 10px; }
+  .github-btns iframe {
+    width: 90px; }
+
+/**
+ * Override, hotifixes
+ */
+/**
+ * File meant for temp css fixes, hot fixes and so on...
+ * Imported at the very end, hence any rules can be overridden
+ */
