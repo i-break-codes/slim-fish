@@ -11,6 +11,8 @@
 
 @import 'root/reset';
 @import 'root/base';
+@import 'root/grid';
+@import 'root/typography';
 
 
 /**
@@ -31,7 +33,11 @@
 @import 'modules/nav';
 @import 'modules/footer';
 @import 'modules/sidebar';
-
+@import 'modules/intro';
+@import 'modules/directory_structure';
+@import 'modules/setup';
+@import 'modules/github_buttons';
+@import 'modules/gulp_modules';
 
 /**
  * Override, hotifixes

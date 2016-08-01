@@ -1,3 +1,31 @@
 /**
- * Use to define font size, weight, and line-height variables
+ * Use to define font-size, font-weight and line-height for base elements i.e body, h1-h6 and so on
  */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+  font-family: $primary-font, $fallback-font;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $base-color;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+  font-weight: inherit;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+  font-weight: inherit;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
+  font-weight: inherit;
+}

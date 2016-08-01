@@ -1,3 +1,33 @@
 /**
- * Use to define font-size, line-height variables
+ * Font Families
  */
+
+$primary-font: 'Open Sans';
+$fallback-font: 'Arial';
+
+
+/**
+ * Font Size
+ */
+
+$base-font-size: 14px;
+$h1-font-size: 32px;
+$h3-font-size: 22px;
+$h4-font-size: 18px;
+$xs-font-size: 10px;
+
+/**
+ * Line Height
+ */
+
+$base-line-height: 24px;
+$h1-line-height: 40px;
+$h3-line-height: 30px;
+$h4-line-height: 25px;
+
+
+/**
+ * Font weight
+ */
+
+$base-font-weight: 300;

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Front-End light weight boiler plate">
+    
+    <title>Slim Fish - Light weight front-end boilerplate.</title>
+    
+    <link rel="icon" href="app/assets/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="app/assets/images/favicon.ico">
+    <link rel="stylesheet" href="app/assets/stylesheets/app.min.css">
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-81679791-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="github-btns">
+        <ul class="clear">
+          <li><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Checkout%20new%20Slim%20Fish,%20a%20light%20weight%20front-end%20Boilerplate%20now%20-%20https://i-break-codes.github.io/slim-fish/" data-size="default" target="_blank">Share via Twitter!</a></li>
+          <li><iframe src="https://ghbtns.com/github-btn.html?user=i-break-codes&repo=slim-fish&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe></li>
+          <li><iframe src="https://ghbtns.com/github-btn.html?user=i-break-codes&repo=slim-fish&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe></li>
+        </ul>
+
+      </div>
+      
+      <div class="logo">
+        <h1><img src="app/assets/images/slim-fish-logo.png" alt="Slim Fish Logo"> Slim Fish</h1>
+        <span>Less crap, more work</span>
+      </div>
+      
+      <section class="intro">
+        <div class="box">
+          <p>Slim Fish is a light weight front-end boilerplate where it provides you a basic setup for getting started with your front-end project. Spend less time setting up gulp, dir structure, basic files and write some real code instead!</p>
+        </div>
+      </section>
+      
+      <section class="what-is-slim-fish">
+        <div class="box">
+          <h3>What is Slim Fish?</h3>
+          <p>I have came across many boilerplates but some are either bloated with unnecessary third party libraries or some are using common mixins, classes which I don't find useful. 
+          Slim Fish is for you if you like to get started with minimal code. Again, front-end devs have their own preference setting up a dir structure and so on, but I've developed this keeping best practices in mind.</p>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <section class="too-many-frameworks">
+        <div class="box">
+          <h3>Too many boilerplates, why Slim Fish?</h3>
+          <p>I have came across many boilerplates but some are either bloated with unnecessary third party libraries or some are using common mixins, classes which I don't find useful.</p>
+          <p>Slim Fish is for you if you like to get started with minimal code. Again, front-end devs have their own preference setting up a dir structure and so on, but I've developed this keeping best practices in mind.</p>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <section class="setup">
+        <div class="box">
+          <h3>Setup</h3>
+          <p>Nothing complicated to install this, follow the steps mentioned below and you are good to go in few seconds!</p>
+          
+          <h4>git-clone</h4>
+          <code>
+            <pre>git@github.com:i-break-codes/slim-fish.git</pre>
+          </code>
+          
+          <p>Change your directory to slim-fish folder and follow the steps below to compile assets.</p>
+          
+          <h4>Install Node Modules</h4>
+          <code>
+            <pre>npm install</pre>
+          </code>
+          
+          <p>Now you have the node modules, time to compile files, run gulp.</p>
+          
+          <h4>Compile Assets</h4>
+          <code>
+            <pre>gulp</pre>
+          </code>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <section class="gulp-modules">
+        <div class="box">
+          <h3>List of included Gulp Modules</h3>
+          <ul>
+            <li><a href="https://www.browsersync.io/" target="_blank">Browser Sync</a></li>
+            <li><a href="http://www.sassmeister.com/" target="_blank">SASS</a></li>
+            <li><a href="https://github.com/postcss/autoprefixer" target="_blank">AutoPrefixer</a></li>
+            <li><a href="https://github.com/scniro/gulp-clean-css" target="_blank">CleanCSS</a></li>
+            <li><a href="https://github.com/terinjokes/gulp-uglify" target="_blank">Uglify</a></li>
+            <li><a href="https://github.com/hparra/gulp-rename" target="_blank">Rename</a></li>
+          </ul>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <section class="libraries-included">
+        <div class="box">
+          <h3>Libraries Included</h3>
+          <ul>
+            <li>jQuery 3.1.0 [JavaScript]</li>
+            <li>CSS Reset [CSS]</li>
+          </ul>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <section class="dir-structure">
+        <div class="box">
+          <h3>Directory Structure</h3>
+          
+          <ul>
+            <li>/root
+              <ul>
+                <li><i class="folder-ico"></i>app
+                  <ul>
+                    <li><i class="folder-ico"></i>assets
+                      <ul>
+                        <li><i class="folder-ico"></i>fonts</li>
+                        <li><i class="folder-ico"></i>images</li>
+                        <li><i class="folder-ico"></i>scripts <span>[after compiled]</span>
+                          <ul>
+                            <li><i class="folder-ico"></i>lib</li>
+                          </ul>
+                        </li>
+                        <li><i class="folder-ico"></i>stylesheets <span>[after compiled]</span></li>
+                      </ul>
+                    </li>
+                    <li><i class="html-file-ico"></i>index.html</li>
+                  </ul>
+                </li>
+                <li><i class="folder-ico"></i>src
+                  <ul>
+                    <li><i class="folder-ico"></i>scripts
+                      <ul>
+                        <li><i class="folder-ico"></i>lib
+                          <ul>
+                            <li><i class="js-file-ico"></i>jquery-3.1.0.js</li>
+                          </ul>
+                        </li>
+                        <li><i class="js-file-ico"></i>App.js</li>
+                      </ul>
+                    </li>
+                    <li><i class="folder-ico"></i>stylesheets
+                      <ul>
+                        <li><i class="folder-ico"></i>components
+                          <ul>
+                            <li><i class="css-file-ico"></i>_buttons.scss</li>
+                            <li><i class="css-file-ico"></i>_inputs.scss</li>
+                            <li><i class="css-file-ico"></i>_lists.scss</li>
+                            <li><i class="css-file-ico"></i>_tables.scss</li>
+                          </ul>
+                        </li>
+                        <li><i class="folder-ico"></i>helpers
+                          <ul>
+                            <li><i class="folder-ico"></i>variables
+                              <ul>
+                                <li><i class="css-file-ico"></i>_colors.scss</li>
+                                <li><i class="css-file-ico"></i>_config.scss</li>
+                                <li><i class="css-file-ico"></i>_images.scss</li>
+                                <li><i class="css-file-ico"></i>_typography.scss</li>
+                              </ul>
+                            </li>
+                            <li><i class="css-file-ico"></i>_all_helpers.scss</li>
+                            <li><i class="css-file-ico"></i>_functions.scss</li>
+                            <li><i class="css-file-ico"></i>_mixins.scss</li>
+                            <li><i class="css-file-ico"></i>_variables.scss</li>
+                          </ul>
+                        </li>
+                        <li><i class="folder-ico"></i>modules
+                          <ul>
+                            <li><i class="css-file-ico"></i>_footer.scss</li>
+                            <li><i class="css-file-ico"></i>_header.scss</li>
+                            <li><i class="css-file-ico"></i>_nav.scss</li>
+                            <li><i class="css-file-ico"></i>_sidebar.scss</li>
+                          </ul>
+                        </li>
+                        <li><i class="folder-ico"></i>root
+                          <ul>
+                            <li><i class="css-file-ico"></i>_base.scss</li>
+                            <li><i class="css-file-ico"></i>_grid.scss</li>
+                            <li><i class="css-file-ico"></i>_reset.scss</li>
+                            <li><i class="css-file-ico"></i>_typography.scss</li>
+                          </ul>
+                        </li>
+                        <li><i class="folder-ico"></i>vendor</li>
+                        <li><i class="css-file-ico"></i>_temp.scss</li>
+                        <li><i class="css-file-ico"></i>app.scss</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><i class="file-ico"></i>gulpfile.js</li>
+                <li><i class="file-ico"></i>package.json</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="box">
+          Built with &lt;3 by <a href="https://twitter.com/mr_ali3n" target="_blank">@mr_ali3n</a>
+        </div>
+      </footer>
+    </div>
+    
+    <script src="app/assets/scripts/lib/jquery-3.1.0.min.js"></script>
+    <script src="app/assets/scripts/App.min.js"></script>
+    <script>
+      App.init(); //Initialize App.js
+    </script>
+  </body>
+</html>
