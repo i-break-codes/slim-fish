@@ -9,9 +9,11 @@ Slim Fish is a light weight front-end boilerplate where it provides you a basic 
 ---
 
 ####Too many boilerplates, why Slim Fish?
-I have came across many boilerplates but some are either bloated with unnecessary third party libraries or some are using common mixins, classes which I don't find useful.
+I have came across many boilerplates but some are either bloated with unnecessary third party libraries or some are using common mixins, classes which I don't
+find useful.
 
-Slim Fish is for you if you like to get started with minimal code. Again, front-end devs have their own preference setting up a dir structure and so on, but I've developed this keeping best practices in mind.
+Slim Fish is for you if you like to get started with minimal code. Again, front-end devs have their own preference setting up a dir structure and so on, but I've
+developed this keeping best practices in mind.
 
 ---
 
