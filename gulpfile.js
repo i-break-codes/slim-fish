@@ -5,19 +5,17 @@ var gulp         = require('gulp'),
     cleanCSS     = require('gulp-clean-css'),
     uglify       = require('gulp-uglify'),
     renameFiles  = require('gulp-rename');
-    
+
   gulp.task('browser-sync', function() {
     browserSync.init(null, {
-      server: {
-        baseDir: "app"
-      }
+      baseDir: "app"
     });
   });
-  
+
   gulp.task('bs-reload', function () {
     browserSync.reload();
   });
-    
+
   gulp.task('css', function () {
     return gulp.src('src/stylesheets/**/*.scss')
       .pipe(sass().on('error', sass.logError))
@@ -33,8 +31,8 @@ var gulp         = require('gulp'),
         stream:true
       }));
   });
-  
-  
+
+
   gulp.task('js',function(){
     return gulp.src('src/scripts/**/*.js')
       .pipe(gulp.dest('app/assets/scripts'))
@@ -42,11 +40,11 @@ var gulp         = require('gulp'),
       .pipe(renameFiles({ suffix: '.min' }))
       .pipe(gulp.dest('app/assets/scripts'))
       .pipe(browserSync.reload({
-        stream: true, 
+        stream: true,
         once: true
       }));
   });
-  
+
   gulp.task('default', ['js', 'css', 'browser-sync'], function () {
     gulp.watch("src/stylesheets/**/*.scss", ['css']);
     gulp.watch("src/scripts/**/*.js", ['js']);
